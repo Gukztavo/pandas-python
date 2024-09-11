@@ -33,5 +33,5 @@ print(lista)
 # personagfens_df.rename(columns={'nome': 'Nome Completo','idade': 'Idade'}, inplace=True)
 # print(personagfens_df)
 
-personagfens_df.columns = ['NOME','IDADE','PESO', 'EH JEDI']
+personagfens_df.columns = ['NOME','IDADE','PESO', 'EH JEDI']  #altera todo os nomes das colunas
 print(personagfens_df)
