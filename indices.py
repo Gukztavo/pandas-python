@@ -28,3 +28,8 @@ data.iloc[1,4]
 print(pesquisa_de_satisfacao.iloc[0,1])
 
 print(pesquisa_de_satisfacao.loc['XboxOne'])
+#--------------------------------------------------
+#COLUNAS COIM ROTULOS COM CARACTES INVÁLIDOS
+print(data['DATA INICIAL'])
+
+print(data[['PRODUTO','ESTADO','REGIÃO']])
